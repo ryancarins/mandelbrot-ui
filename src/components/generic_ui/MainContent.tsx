@@ -1,12 +1,8 @@
-import { Route, Routes } from "react-router-dom";
-import RoomGrid from "../pages/RoomGrid";
+import Mandelbrot from '../pages/Mandelbrot';
 
 const MainContent = () => {
   return (
-      <Routes>
-        <Route path="/rooms" element={<RoomGrid/>}/>
-        <Route path="/" element={<RoomGrid/>}/>
-      </Routes>
+        <Mandelbrot/>
   );
 }
 
